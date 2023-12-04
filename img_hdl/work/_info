@@ -1,0 +1,198 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vA
+Z1 !s100 [_ViY>3U563]UV;coXzeM1
+Z2 ITTmm>QUF<@^_W?o73834P1
+Z3 VeCTHalZabII5Z8H7MB03I3
+Z4 dE:\HK1_2023-2024\CE213_HDL\DA\img_hdl
+Z5 w1700383582
+Z6 8E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/A.v
+Z7 FE:/HK1_2023-2024/CE213_HDL/DA/img_hdl/A.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/A.v|
+Z10 o-work work -O0
+n@a
+Z11 !s108 1700496488.934000
+Z12 !s107 E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/A.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vblur
+Z13 !s100 E8ReW1<B`[46?1SP07^RC2
+Z14 I4V]SEcG8A5_ZFYeF62fDn0
+Z15 V22hUzdW_KHkbcl`8]_7a_1
+R4
+Z16 w1701692334
+Z17 8E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/blur.v
+Z18 FE:/HK1_2023-2024/CE213_HDL/DA/img_hdl/blur.v
+L0 1
+R8
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/blur.v|
+R10
+Z20 !s108 1701693248.117000
+Z21 !s107 E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/blur.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vD
+Z22 !s100 ><AzW[_4blm^2fBhD[CH>0
+Z23 IdB1@ZZzmGd5I>4ml>NRn70
+Z24 VDRCZoBc:d@B?G]NC=RgLV1
+R4
+Z25 w1701618914
+Z26 8E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/D.v
+Z27 FE:/HK1_2023-2024/CE213_HDL/DA/img_hdl/D.v
+L0 1
+R8
+r1
+31
+Z28 !s90 -reportprogress|300|-work|work|E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/D.v|
+R10
+n@d
+Z29 !s108 1701672545.057000
+Z30 !s107 E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/D.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vgray
+Z31 !s100 LhkiHlRC1VRYzW0cIGKFi3
+Z32 IOVjm:K@A93gZfL:GZ@Fba3
+Z33 V8<BaHK>mR<nRU>@`clb=W2
+R4
+Z34 w1700640360
+Z35 8E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/gray.v
+Z36 FE:/HK1_2023-2024/CE213_HDL/DA/img_hdl/gray.v
+L0 1
+R8
+r1
+31
+Z37 !s90 -reportprogress|300|-work|work|E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/gray.v|
+R10
+Z38 !s108 1701693248.181000
+Z39 !s107 E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/gray.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmain
+Z40 !s100 ZD^j;1el?999ce_Tc7clV3
+Z41 I4HOCKkAzTSC3Q0MeJKfY`0
+Z42 VN6Te]^iIOGV7[3MNRcfX>2
+R4
+Z43 w1700625540
+R35
+R36
+L0 1
+R8
+r1
+31
+R37
+R10
+Z44 !s108 1700640240.362000
+R39
+!i10b 1
+!s85 0
+!s101 -O0
+vsobel
+Z45 !s100 2S<PPHa:Vg:edO;0JMhDl2
+Z46 I`Z@=8[6TVOnkP;`iMDd=a3
+Z47 V6NX=5HFm=R5N9oZQ5o7Kf2
+R4
+Z48 w1701624511
+Z49 8E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/sobel.v
+Z50 FE:/HK1_2023-2024/CE213_HDL/DA/img_hdl/sobel.v
+L0 1
+R8
+r1
+31
+Z51 !s90 -reportprogress|300|-work|work|E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/sobel.v|
+R10
+Z52 !s108 1701693248.212000
+Z53 !s107 E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/sobel.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtest_blur
+Z54 !s100 ^<T3IMWP;P;MSDo^3IX8F0
+Z55 I1HGOE=5f7UUV]ECGo`dg40
+Z56 VlaaJ:]@1MAzcQ;nmo_B1`2
+R4
+Z57 w1701693150
+Z58 8E:\HK1_2023-2024\CE213_HDL\DA\img_hdl\test_blur.v
+Z59 FE:\HK1_2023-2024\CE213_HDL\DA\img_hdl\test_blur.v
+L0 3
+R8
+r1
+31
+Z60 !s90 -reportprogress|300|-work|work|E:\HK1_2023-2024\CE213_HDL\DA\img_hdl\test_blur.v|
+R10
+Z61 !s108 1701693248.243000
+Z62 !s107 E:\HK1_2023-2024\CE213_HDL\DA\img_hdl\test_blur.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtest_gray
+Z63 !s100 FfMDY1gYlGKmbVjY?mBOQ2
+Z64 I_ef`2]a5IDkd;j:DEGm8a2
+Z65 V^Va`jPS8kP^DzD0IH>Nn<3
+R4
+Z66 w1701672180
+Z67 8E:\HK1_2023-2024\CE213_HDL\DA\img_hdl\test_gray.v
+Z68 FE:\HK1_2023-2024\CE213_HDL\DA\img_hdl\test_gray.v
+L0 3
+R8
+r1
+31
+Z69 !s90 -reportprogress|300|-work|work|E:\HK1_2023-2024\CE213_HDL\DA\img_hdl\test_gray.v|
+R10
+!i10b 1
+!s85 0
+Z70 !s108 1701693248.275000
+Z71 !s107 E:\HK1_2023-2024\CE213_HDL\DA\img_hdl\test_gray.v|
+!s101 -O0
+vtest_sobel
+!i10b 1
+!s100 H_5B2Ib=>zOoei_cZBF?z2
+I93_g>>^k5_5G:B`9Td0>]0
+Z72 V^QB1C8NoiJTH5c[6fF^A:1
+R4
+w1701693242
+Z73 8E:\HK1_2023-2024\CE213_HDL\DA\img_hdl\test_sobel.v
+Z74 FE:\HK1_2023-2024\CE213_HDL\DA\img_hdl\test_sobel.v
+L0 3
+R8
+r1
+!s85 0
+31
+!s108 1701693248.323000
+!s107 E:\HK1_2023-2024\CE213_HDL\DA\img_hdl\test_sobel.v|
+Z75 !s90 -reportprogress|300|-work|work|E:\HK1_2023-2024\CE213_HDL\DA\img_hdl\test_sobel.v|
+!s101 -O0
+R10
+vtestD
+Z76 !s100 ?[JWDUZjJKH]Q9oODVCH:1
+Z77 I>nhRN1n0l8oM[CRmBR5zk3
+Z78 V;R^[mg7L=S[CXH^G1Oe6V2
+R4
+Z79 w1701672485
+Z80 8E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/testD.v
+Z81 FE:/HK1_2023-2024/CE213_HDL/DA/img_hdl/testD.v
+L0 3
+R8
+r1
+31
+Z82 !s90 -reportprogress|300|-work|work|E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/testD.v|
+R10
+Z83 ntest@d
+Z84 !s108 1701672545.182000
+Z85 !s107 E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/testD.v|
+!i10b 1
+!s85 0
+!s101 -O0
