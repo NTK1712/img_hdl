@@ -1,0 +1,87 @@
+`timescale 1ns/1ps
+
+module test_image;
+
+  reg clk;
+  reg [1:0] sel;
+  reg [7:0] din0, din1, din2,din3,din4,din5,din6,din7,din8;
+  wire [7:0] dout;
+  reg [7:0] rami [0:119999];
+  reg [7:0] ram [0:121403];
+  reg [7:0] ramo [0:119999];
+  always #5 clk = ~clk;
+  integer i,j,a;
+  image m(
+    .clk(clk),
+	 .sel(sel),
+    .din0(din0),
+    .din1(din1),
+    .din2(din2),
+    .din3(din3),
+    .din4(din4),
+    .din5(din5),    
+    .din6(din6),
+    .din7(din7),
+    .din8(din8),
+    .dout(dout)
+  );
+  
+
+
+  initial begin
+    clk = 0;
+	 sel = 0;
+    din0 = 0;
+    din1 = 0;
+    din2 = 0;
+    din0 = 0;
+    din1 = 0;
+    din2 = 0;
+    din3 = 0;
+    din4 = 0;
+    din5 = 0;
+    din6 = 0;
+    din7 = 0;
+    din8 = 0;
+
+
+	 #5 sel = 2;
+	 case(sel)
+		2 : begin 
+		   a=0;
+			$readmemh("txt/out_gray.txt", rami);
+			for(i=0;i<402;i=i+1) begin
+				for(j=0;j<302;j=j+1) begin
+					if( 0<i && i<401 && 0<j && j<301)
+						ram[302*i + j] = rami[300*(i-1) + (j-1)];
+					else
+						ram[302*i + j] = 100;
+				end
+			end
+			#5;
+			for(i=0;i<400;i=i+1) begin
+				for(j=0;j<300;j=j+1) begin
+					din0 = ram[302*i + j];
+					din1 = ram[302*i + j + 1];
+					din2 = ram[302*i + j + 2];
+					din3 = ram[302*(i+1) + j];
+					din4 = ram[302*(i+1) + j + 1];
+					din5 = ram[302*(i+1) + j + 2];
+					din6 = ram[302*(i+2) + j];
+					din7 = ram[302*(i+2) + j + 1];
+					din8 = ram[302*(i+2) + j + 2];
+					#5;
+					ramo[a] = dout;	
+					a = a+1;			
+					#5; 
+				end
+			end
+			$writememh("txt/out_main.txt", ramo);
+			$finish;
+		end
+		default: $finish;
+		endcase
+ end
+
+endmodule
+

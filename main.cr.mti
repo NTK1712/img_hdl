@@ -1,0 +1,50 @@
+E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/sobel.v {1 {vlog -work work E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/sobel.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sobel
+
+Top level modules:
+	sobel
+
+} {} {}} E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/blur.v {1 {vlog -work work E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/blur.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module blur
+
+Top level modules:
+	blur
+
+} {} {}} E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/test_gray.v {1 {vlog -work work E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/test_gray.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module test_gray
+
+Top level modules:
+	test_gray
+
+} {} {}} E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/image.v {1 {vlog -work work E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/image.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module image
+
+Top level modules:
+	image
+
+} {} {}} E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/gray.v {1 {vlog -work work E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/gray.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module gray
+
+Top level modules:
+	gray
+
+} {} {}} E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/test_blur.v {1 {vlog -work work E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/test_blur.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module test_blur
+
+Top level modules:
+	test_blur
+
+} {} {}} E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/test_sobel.v {1 {vlog -work work E:/HK1_2023-2024/CE213_HDL/DA/img_hdl/test_sobel.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module test_sobel
+
+Top level modules:
+	test_sobel
+
+} {} {}}
